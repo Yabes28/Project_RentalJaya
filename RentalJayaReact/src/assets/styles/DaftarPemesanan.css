@@ -1,0 +1,29 @@
+.table th,
+.table td {
+    text-align: center;
+}
+
+.table th {
+    color: #fff;
+}
+
+.table-responsive {
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+.modal-body p {
+    font-size: 1rem;
+}
+
+#profile-dropdown .dropdown-menu {
+    background-color: #333;
+}
+
+#profile-dropdown .dropdown-menu .dropdown-item {
+    color: white;
+}
+
+#profile-dropdown .dropdown-menu .dropdown-item:hover {
+    background-color: #555;
+}

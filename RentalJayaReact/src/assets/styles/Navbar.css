@@ -1,0 +1,126 @@
+/* src/assets/style/Navbar.css */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #212529;
+    color: #fff;
+}
+
+.navbar {
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: background-color 0.3s;
+}
+
+.navbar.scrolled {
+    background-color: #343a40 !important;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+    position: relative;
+    padding-bottom: 10px;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffc107;
+}
+
+.navbar-nav .nav-link.active::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #ffc107;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar-brand img {
+    height: 40px;
+}
+
+.nav-link {
+    color: white !important;
+    margin: 0 10px;
+}
+
+.nav-link:hover {
+    color: #ffc107 !important;
+}
+
+.btn-custom {
+    background-color: #ffc107;
+    color: #000;
+    border: none;
+}
+
+.btn-custom:hover {
+    background-color: #ffca2c;
+    color: #000;
+}
+
+.dropdown-menu {
+    background-color: #343a40;
+    border: 1px solid #495057;
+}
+
+.dropdown-item {
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+}
+
+.dropdown-item:hover {
+    background-color: #495057;
+    color: white;
+}
+
+.dropdown-toggle::after {
+    margin-left: 0.5em;
+}
+
+.btn-secondary {
+    background-color: #495057;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+
+.btn-secondary:hover {
+    background-color: #6c757d;
+}
+
+.dropdown-menu.show {
+    display: block;
+}
+
+.card-custom {
+    background-color: #343a40;
+    border: none;
+    position: relative;
+    color: #fff;
+}
+
+.footer {
+    background-color: #000;
+}
+
+.footer a {
+    color: #ffc107;
+}
+
+.footer a:hover {
+    color: #e0a800;
+}

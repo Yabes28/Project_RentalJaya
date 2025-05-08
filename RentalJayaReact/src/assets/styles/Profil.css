@@ -1,0 +1,73 @@
+.profile-container {
+    margin-top: 70px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.profile-section {
+    background-color: #343a40;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.card {
+    background-color: #343a40; /* Warna abu-abu gelap */
+    border: 1px solid #6c757d; /* Border abu-abu */
+    border-radius: 10px;
+  }
+  
+  .card-header {
+    background-color: #495057; /* Warna header abu-abu lebih terang */
+    color: #ffc107; /* Warna kuning untuk judul */
+    font-weight: bold;
+  }
+  
+  .card-title {
+    color: #ffc107; /* Warna kuning untuk judul di dalam body */
+  }
+  
+  .card-text {
+    color: #ffffff; /* Warna putih untuk teks */
+  }
+
+.section-title {
+    color: #ffc107;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.modal-content {
+    background-color: #212529;
+    color: #fff;
+}
+
+.modal-header,
+.modal-footer {
+    border-color: #444;
+}
+
+button.btn-warning {
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+
+button.btn-warning:hover {
+    background-color: #e0a800;
+    border-color: #e0a800;
+}
+
+button.btn-close {
+    color: #fff;
+}
+
+button.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+button.btn-secondary:hover {
+    background-color: #5a6268;
+    border-color: #545b62;
+}

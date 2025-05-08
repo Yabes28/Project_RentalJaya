@@ -1,0 +1,17 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #212529;
+    color: #fff;
+  }
+  
+  .card-custom {
+    background-color: #343a40;
+    border: none;
+    color: #fff;
+  }
+  
+  .hero-section img {
+    max-height: 100vh;
+    object-fit: cover;
+  }
+  

@@ -1,0 +1,40 @@
+/* DaftarPemesanan.css atau styles/Footer.css */
+.page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .content-wrap {
+    flex: 1 0 auto;
+    padding: 20px 0;
+  }
+  
+  .footer {
+    flex-shrink: 0;
+    background-color: #343a40;
+    padding: 20px 0;
+    margin-top: auto; /* Memastikan footer di bawah */
+    width: 100%;
+  }
+  
+  .footer a {
+    text-decoration: none;
+    color: #fff; /* Warna teks putih */
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+    color: #ffc107; /* Warna kuning saat hover */
+  }
+  
+  /* Tambahan styling untuk footer */
+  .footer h5 {
+    color: #fff;
+    margin-bottom: 1rem;
+  }
+  
+  .footer p {
+    color: #fff;
+    margin-bottom: 0.5rem;
+  }

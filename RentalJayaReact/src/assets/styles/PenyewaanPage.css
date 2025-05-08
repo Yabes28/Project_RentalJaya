@@ -1,0 +1,41 @@
+.filter-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.filter-buttons .btn {
+    margin-left: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.filter-buttons .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.filter-buttons .btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.badge {
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    color: #fff;
+}
+
+.badge-warning {
+    background-color: #ffc107; /* Kuning untuk status aktif */
+}
+
+.badge-success {
+    background-color: #28a745; /* Hijau untuk status selesai */
+} 
