@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Sidebar from '../components/Sidebar';
 import '../assets/styles/MobilPage.css';
-import '../assets/styles/Common.css';
+import '../assets/styles/common.css';
 import { getAllMobil, createMobil, deleteMobil, updateMobil } from '../api/MobilApi';
 import { getFotoMobil } from '../api/index';
 import { Modal, Button } from 'react-bootstrap';
