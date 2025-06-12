@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Sidebar from '../components/Sidebar';
 import '../assets/styles/adminPage.css';
-import '../assets/styles/Common.css';
+import '../assets/styles/common.css';
 import { fetchAllUsers, deleteUser } from '../api/apiAuth';
 import { Modal, Button } from 'react-bootstrap';
 
