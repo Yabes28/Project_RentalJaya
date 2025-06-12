@@ -1,6 +1,10 @@
+
 -🚗 Car Rental Web Application This repository contains the final project for the Web Programming course. 
 The project is a simple yet functional Car Rental Website that allows users to browse available vehicles, make reservations, and manage rental transactions. 
 It demonstrates key web development concepts including responsive design, CRUD operations, and server-side processing
+
+![Preview](https://raw.githubusercontent.com/username/repo/main/assets/banner.png)
+
 
 💻 Features
 
